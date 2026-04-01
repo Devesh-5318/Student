@@ -16,6 +16,7 @@ import java.util.*;
 //        property = "id"
 //)
 
+// student entity
 @Entity
 @Data
 @Getter
