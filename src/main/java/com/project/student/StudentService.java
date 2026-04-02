@@ -12,6 +12,8 @@ public class StudentService {
     @Autowired
     private StudentRepository repo;
 
+
+    // this method create a new student but does not add courses along with the id
     @Transactional
     public Student createStudent(Student student) {
 
